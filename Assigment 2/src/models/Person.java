@@ -2,7 +2,7 @@ package models;
 
 public class Person implements Payable, Comparable<Person> {
 
-    private static int idCounter = 1; //na nahui
+    private static int idCounter = 1;
     private int id = idCounter++;
 
     private String name;
