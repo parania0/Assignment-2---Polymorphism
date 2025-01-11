@@ -1,6 +1,7 @@
 package models;
 
-public class Employee {
+public class Employee extends Person {
+
     private String position;
     private double salary;
 
@@ -38,4 +39,5 @@ public class Employee {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
 }
