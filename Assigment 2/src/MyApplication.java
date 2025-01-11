@@ -11,8 +11,8 @@ public class MyApplication {
 
         ArrayList<Person> persons = new ArrayList<>();
 
-        persons.add(new Student("Yerkegali", "Yergali", 3));
-        persons.add(new Student("Aldyar", "Tagishev", 2));
+        persons.add(new Student("Amina", "Sergazina", 3));
+        persons.add(new Student("Dameli", "Taubasar", 2));
 
         persons.add(new Employee("Yerasyl", "Unerbek", "Starosta", 10));
 

@@ -1,6 +1,7 @@
 package models;
 
 public class Student extends Person {
+
     private double gpa;
 
     public Student() {
@@ -33,4 +34,5 @@ public class Student extends Person {
     public void setGpa(double gpa) {
         this.gpa = gpa;
     }
+
 }
